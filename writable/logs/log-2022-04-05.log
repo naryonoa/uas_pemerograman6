@@ -1,0 +1,268 @@
+ERROR - 2022-04-05 00:00:18 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-05 00:00:18 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Barang->edit('1')
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-05 00:01:55 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-05 00:01:55 --> Attempt to read property "nama_barang" on bool
+#0 C:\xampp\htdocs\pem6\app\Controllers\Barang.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Barang->edit('1')
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-05 00:02:14 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-05 00:02:14 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Barang->edit('1')
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-05 00:08:20 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-05 00:08:20 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Barang->edit('1')
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-05 00:08:27 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-05 00:08:27 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Barang->edit('1')
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-05 00:10:16 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-05 00:10:16 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Barang->edit('1')
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-05 00:23:58 --> Unclosed '{' on line 6
+#0 C:\xampp\htdocs\pem6\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pem6\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pela...')
+#2 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pela...')
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Pelanggan->index()
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 00:24:59 --> Unclosed '{' on line 6
+#0 C:\xampp\htdocs\pem6\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pem6\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pela...')
+#2 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pela...')
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Pelanggan->index()
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 00:26:44 --> Unclosed '{' on line 6
+#0 C:\xampp\htdocs\pem6\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pem6\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pela...')
+#2 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pela...')
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->index()
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 00:27:07 --> Undefined variable $getBarang
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 00:27:30 --> Undefined array key "nama_barang"
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 00:28:15 --> Undefined array key "id_barang"
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 00:29:24 --> Invalid file: index.php
+#0 C:\xampp\htdocs\pem6\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\pem6\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-05 00:58:13 --> Column 'no_telpon' cannot be null
+CRITICAL - 2022-04-05 01:11:18 --> Undefined variable $Pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:12:10 --> Undefined variable $Pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:13:35 --> Undefined variable $getPelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:13:54 --> Undefined variable $pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:18:36 --> Undefined variable $Pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:20:45 --> Undefined variable $Pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:21:05 --> Undefined variable $pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:22:46 --> Undefined variable $Pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:24:54 --> Undefined property: stdClass::$nama_Pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:25:29 --> Undefined property: stdClass::$nama_Pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:25:57 --> Undefined variable $Pelanggan
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_edit', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(42): view('pelanggan_edit', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->edit('1')
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 01:28:49 --> Class "App\Controllers\Barang_model" not found
+#0 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->update()
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-05 01:30:16 --> Class "App\Controllers\Barang_model" not found
+#0 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->update()
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-05 01:30:34 --> Call to undefined method App\Models\Pelanggan_model::editBarang
+#0 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(64): CodeIgniter\Model->__call('editBarang', Array)
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->update()
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 01:44:48 --> Class "App\Controllers\Barang_model" not found
+#0 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->hapus('2')
+#1 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#2 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-05 02:52:17 --> Invalid file: index.php
+#0 C:\xampp\htdocs\pem6\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\pem6\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
