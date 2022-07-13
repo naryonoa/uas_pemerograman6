@@ -1,0 +1,279 @@
+CRITICAL - 2022-07-13 02:34:15 --> Invalid file: index.php
+#0 C:\xampp\htdocs\pem6\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\pem6\app\Controllers\Home.php(9): view('index')
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-13 02:41:38 --> Cannot declare class App\Controllers\pinjaman because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-13 02:42:23 --> Cannot declare class App\Controllers\Pinjaman because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-07-13 02:58:10 --> Table 'pe6.borrows' doesn't exist
+CRITICAL - 2022-07-13 02:58:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pem6\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pem6\app\Models\Pelanggan_model.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(12): App\Models\Pelanggan_model->getPelanggan()
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->index()
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-13 02:59:09 --> Undefined array key "nama_pelanggan"
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pelanggan.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pelanggan->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pelanggan))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:01:00 --> Undefined array key "nama_pelanggan"
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:06:56 --> Undefined array key "id_pelanggan"
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:17:07 --> Unknown database 'uas_pemerogrman'
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(2): mysqli_connect('localhost', 'root', 'naryono1', 'uas_pemerogrman')
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:17:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\n"
+
+    . "FROM borrows br \n"
+
+    . "JOIN students st on br.studentid ...' at line 1
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(3): mysqli_query(Object(mysqli), 'SELECT br.borro...')
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:18:56 --> Unknown column 'br.borrowid' in 'field list'
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(3): mysqli_query(Object(mysqli), 'SELECT br.borro...')
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:20:46 --> mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, array given
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(4): mysqli_fetch_array(Array)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:23:25 --> Table 'uas_pemerograman.student' doesn't exist
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(6): mysqli_query(Object(mysqli), 'select * from s...')
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:24:15 --> Array to string conversion
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:25:07 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-13 03:25:15 --> Array to string conversion
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:26:21 --> Undefined array key 8
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:27:15 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#2 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-13 03:33:36 --> Uninitialized string offset 6
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:33:47 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pem6\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#3 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-13 03:34:40 --> Uninitialized string offset 1
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:34:50 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\pem6\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#3 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-13 03:35:41 --> Undefined array key 1
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:35:54 --> syntax error, unexpected token "]", expecting "-" or identifier or variable or number
+#0 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#2 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#3 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#4 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-13 03:36:10 --> Undefined array key 1
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:36:47 --> Undefined array key 1
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:36:58 --> Undefined array key 1
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:37:07 --> Undefined variable $nama_penulis
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-13 03:37:21 --> Array to string conversion
+#0 C:\xampp\htdocs\pem6\app\Views\pelanggan_view.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\pem6\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pem6\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pem6\system\Common.php(1089): CodeIgniter\View\View->render('pelanggan_view', Array, true)
+#4 C:\xampp\htdocs\pem6\app\Controllers\pinjam.php(14): view('pelanggan_view', Array)
+#5 C:\xampp\htdocs\pem6\system\CodeIgniter.php(832): App\Controllers\pinjam->index()
+#6 C:\xampp\htdocs\pem6\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pinjam))
+#7 C:\xampp\htdocs\pem6\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pem6\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

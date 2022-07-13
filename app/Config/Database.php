@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => 'naryono1',
-        'database' => 'pe6',
+        'database' => 'uas_pemerograman',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

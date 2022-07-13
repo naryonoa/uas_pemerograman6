@@ -2,32 +2,32 @@
 namespace App\Models;
 use CodeIgniter\Model;
  
-class Pelanggan_model extends Model
+class Pinjam_model extends Model
 {
-    protected $table = 'borrows';
+    protected $table = 'Pinjam';
      
-    public function getPelanggan($id = false)
+    public function getPinjam($id = false)
     {
         if($id === false){
             return $this->findAll();
         }else{
-            return $this->getWhere(['borrowid' => $id]);
+            return $this->getWhere(['id_Pinjam' => $id]);
         }   
     }
-    public function savePelanggan($data)
+    public function savePinjam($data)
     {
         $builder = $this->db->table($this->table);
         return $builder->insert($data);
     }
-    public function editPelanggan($data,$id)
+    public function editPinjam($data,$id)
     {
         $builder = $this->db->table($this->table);
-        $builder->where('id_pelanggan', $id);
+        $builder->where('id_Pinjam', $id);
         return $builder->update($data);
     }
-    public function hapusPelanggan($id)
+    public function hapusPinjam($id)
     {
         $builder = $this->db->table($this->table);
-        return $builder->delete(['id_pelanggan' => $id]);
+        return $builder->delete(['id_Pinjam' => $id]);
     }
 }

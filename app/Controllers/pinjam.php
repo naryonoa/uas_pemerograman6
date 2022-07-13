@@ -3,12 +3,12 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\Pelanggan_model;
 
-class pelanggan extends Controller
+class pinjam extends Controller
 {
     public function index()
     {
         $model = new Pelanggan_model;
-        $data['title']     = 'Data Pelanggan';
+        $data['title']     = 'Data Pinjaman';
         $data['getPelanggan'] = $model->getPelanggan();
         echo view('header_view', $data);
         echo view('pelanggan_view', $data);
